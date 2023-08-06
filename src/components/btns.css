@@ -1,0 +1,16 @@
+.navigation-btn {
+  @apply absolute top-1/2 w-9 h-9 bg-white rounded-full;
+}
+.navigation-btn:hover svg path {
+  @apply stroke-orange-500;
+}
+.close-btn {
+  @apply absolute -top-7 right-0 w-5 h-5;
+}
+.close-btn:hover svg path {
+  @apply fill-orange-500;
+}
+
+.nav-btn {
+  @apply flex justify-center items-center w-10 h-10 max-sm:w-7 max-sm:h-7 border-2 rounded-full hover:border-orange-500;
+}
