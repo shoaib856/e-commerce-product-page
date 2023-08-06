@@ -34,7 +34,7 @@ function App() {
     <div className="container mx-auto">
       <Navbar itemsInCart={itemsInCart} setItemsInCart={setItemsInCart} />
 
-      <div className="px-32 max-xl:px-16 max-lg:px-0 py-16 max-md:pt-0 gap-5 flex max-md:flex-col items-center justify-between">
+      <div className="px-32 max-xl:px-16 max-lg:px-0 py-16 max-md:pt-0 max-md:pb-5 gap-5 flex max-md:flex-col items-center justify-between">
         <DisplayItemImgs images={product.images} thumbs={product.thumbs} />
         <div className="max-lg:px-3">
           <DisplayItemDescription
