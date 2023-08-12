@@ -4,9 +4,7 @@
 .navigation-btn:hover svg path {
   @apply stroke-orange-500;
 }
-.close-btn {
-  @apply absolute -top-7 right-0 w-5 h-5;
-}
+
 .close-btn:hover svg path {
   @apply fill-orange-500;
 }

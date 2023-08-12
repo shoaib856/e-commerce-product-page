@@ -6,9 +6,9 @@ import Carousel from "./Carousel";
 const ShowProductImg = ({ thumbs, images, setShowCarousel }) => {
   const [selectedThumb, setSelectedThumb] = useState(0);
   return (
-    <div className="inset-0 bg-black/60 fixed z-10 ">
+    <div className="overflow-y-scroll inset-0 bg-black/60 fixed z-10">
       <div className="flex items-center justify-center h-full">
-        <div>
+        <div className="p-5">
           <Carousel
             images={images}
             setShowCarousel={setShowCarousel}
